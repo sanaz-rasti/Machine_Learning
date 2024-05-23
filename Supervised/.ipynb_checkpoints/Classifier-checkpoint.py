@@ -1,7 +1,7 @@
 from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
-from sklearn.datasets import load_iris, load_diabetes, load_digits, load_linnerud, load_wine
 import numpy as np
+from sklearn.datasets import load_iris, load_diabetes, load_digits, load_linnerud, load_wine
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix

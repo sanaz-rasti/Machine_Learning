@@ -97,7 +97,7 @@ class regression:
 
         # ----------------------------
         # Determination of prediction: 
-        # Regression Score: (1 - u/v): u = ((y_true - y_pred)**2).sum(), 
+        # Regression Score: (1 - u/v): u = ((y_true - y_pred)**2).sum(),
         # v = ((y_true - y_true.mean())**2).sum()
         self.__class__.regscore = model.score(self.X_train, self.y_train)
 
