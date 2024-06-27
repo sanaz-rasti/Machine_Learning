@@ -72,7 +72,12 @@ The **DimensionalityReduction()** function returns the data in lower dimension (
 ### 2.4 Feature Extraction:
 **Module**: 'feature_extraction.py'
 <br>
-
+**1) Low Variance Filter:**
+**2) Univariate feature Selection:**
+**3) High Correlation Filter:**
+**4) Random Forest Regressor:**
+**5) Recursive Feature Elimination:**
+**6) Forward Feature Selection:**
 
 
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 from sklearn.datasets import load_iris, load_diabetes, load_digits, load_linnerud, load_wine

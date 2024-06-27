@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 import numpy as np

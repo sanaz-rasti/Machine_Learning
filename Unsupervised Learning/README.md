@@ -50,11 +50,12 @@ There are two main dimensionality reduction method of Component/Factor based and
 **A.2) ICA**: Data with several Guassian feature distributions, and/or statistical independant feature sets are bet fitted for ICA dimensionality reduction. It has widely applied for neuron image data analysis, stuck market price, finance data, astronomy data, color image data, etc..
 
 **A.3) Factor Analysis**:
-
-**B) Project based**
-**B.1) t-SNE**
-**B.2) ISOMAP**:
-**B.3) UMAP**: 
+ Estimating maximum likelihood of data matrix. Transforming data into a lower dimentional with specific n-components. 
+ 
+**B) Project based:**
+**B.1) t-SNE:** Simply converts related data points to probabilities. The t-distribution of related data points are represing the Gaussian joint probabilities of the original space. 
+**B.2) ISOMAP:** A manifold algorithm for Isometric maping, looking for a lower-dimensional embeddingby maintaing a geodesic distance between data points.  
+**B.3) UMAP:** Modeling data manifold with a fuzzy topological structure. 
     
 **Module**: 'dimensionality_reduction.py'
 <br>After loading the dataset, the user will be informed the number of features in the dataset. Then input the desired number of features to be returned by the application.   
@@ -72,7 +73,12 @@ The **DimensionalityReduction()** function returns the data in lower dimension (
 ### 2.4 Feature Extraction:
 **Module**: 'feature_extraction.py'
 <br>
-
+**1) Low Variance Filter:** Normalising the dataset and taking the variances, keeping portion of data features with variance higher than variance-mean
+**2) Univariate feature Selection:**
+**3) High Correlation Filter:**
+**4) Random Forest Regressor:**
+**5) Recursive Feature Elimination:**
+**6) Forward Feature Selection:**
 
 
 
